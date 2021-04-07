@@ -2,7 +2,7 @@
 #include<stdlib.h> // ·£´ý ³Ñ¹ö Generation
 
 
-int main(void) {
+int main_02(void) {
 
 	int success_count = 0;
 	int result;

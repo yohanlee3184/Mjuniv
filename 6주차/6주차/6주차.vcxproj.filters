@@ -21,5 +21,11 @@
     <ClCompile Include="자유튜 연습 프로그램.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="실습2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="반복제어변수출력.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

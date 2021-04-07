@@ -18,5 +18,8 @@
     <ClCompile Include="달의 일수.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="자유튜 연습 프로그램.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

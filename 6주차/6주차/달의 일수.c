@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main(void) {
+int main_01(void) {
 
 	int month, days;
 

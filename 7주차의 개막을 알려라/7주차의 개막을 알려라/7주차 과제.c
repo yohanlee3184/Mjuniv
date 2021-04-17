@@ -15,7 +15,7 @@ int main(void) {
 	srand((unsigned)time(NULL));//현재 시간 값 호출
 
 		answer = rand() % 100;
-
+		answer = answer + 1;
 		do
 		{
 			printf("정답을 추측하여 보시오 : ");

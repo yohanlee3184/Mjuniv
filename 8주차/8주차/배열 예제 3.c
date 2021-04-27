@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #define students 5
-int main(void) 
+int main_01(void) 
 {
 	int scores[students];
 	int sum = 0;

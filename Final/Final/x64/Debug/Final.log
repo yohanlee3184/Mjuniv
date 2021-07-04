@@ -1,0 +1,9 @@
+﻿  다시시도.c
+D:\Programming\Mjuniv\Final\Final\다시시도.c(29,19): warning C4013: 'strstr'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+D:\Programming\Mjuniv\Final\Final\다시시도.c(32,9): warning C4047: '=': 'int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+D:\Programming\Mjuniv\Final\Final\다시시도.c(33,12): warning C4047: '=': 'int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+D:\Programming\Mjuniv\Final\Final\다시시도.c(43,10): warning C4047: '=': 'int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+D:\Programming\Mjuniv\Final\Final\다시시도.c(44,20): warning C4244: '=': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Programming\Mjuniv\Final\Final\다시시도.c(29,1): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+D:\Programming\Mjuniv\Final\Final\다시시도.c(41,1): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+  Final.vcxproj -> D:\Programming\Mjuniv\Final\x64\Debug\Final.exe

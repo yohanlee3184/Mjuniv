@@ -1,0 +1,2 @@
+D:\Programming\Mjuniv\2021-2 C++\test\Debug\test.exe
+D:\Programming\Mjuniv\2021-2 C++\Week 1\Debug\test.exe

@@ -1,6 +1,6 @@
 #include"Calculator.h"
 
-int main() {
+int main01() {
 	Calculator calcObj;
 	calcObj.run();
 	return 0;

@@ -146,6 +146,7 @@
     <ClCompile Include="4-6.cpp" />
     <ClCompile Include="Adder.cpp" />
     <ClCompile Include="Caculator.cpp" />
+    <ClCompile Include="hw.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

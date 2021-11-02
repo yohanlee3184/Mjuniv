@@ -1,6 +1,6 @@
 #include<iostream>
 
-int main() {
+int main_02() {
 
 	std::cout << "입력할 정수의 개수는?";
 	int n;

@@ -37,6 +37,12 @@ MyIntArray::MyIntArray(MyIntArray& copy) {
 	size = copy.size;
 	last = copy.last;
 	ptr = new int[size];
+	
+	if (ptr == NULL) {
+		cout << "메모리 할당 오류" << endl;
+		exit(1);
+	}
+
 	for (int i = 0; i < last+1; i++) { ptr[i] = copy.ptr[i]; }
 	numOfInstances++;
 

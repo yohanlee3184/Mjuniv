@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 
 class MyIntArray {
@@ -141,3 +141,4 @@ int main_01() {
 	return 0;
 	}
 	
+	*/

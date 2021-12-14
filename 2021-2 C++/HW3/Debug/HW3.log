@@ -1,13 +1,6 @@
 ﻿  given.cpp
 D:\Programming\Mjuniv\2021-2 C++\HW3\given.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-HW.obj : error LNK2005: "public: __thiscall MyIntArray::MyIntArray(class MyIntArray &)" (??0MyIntArray@@QAE@AAV0@@Z)이(가) given.obj에 이미 정의되어 있습니다.
-HW.obj : error LNK2005: "public: __thiscall MyIntArray::MyIntArray(int)" (??0MyIntArray@@QAE@H@Z)이(가) given.obj에 이미 정의되어 있습니다.
-HW.obj : error LNK2005: "public: __thiscall MyIntArray::~MyIntArray(void)" (??1MyIntArray@@QAE@XZ)이(가) given.obj에 이미 정의되어 있습니다.
-HW.obj : error LNK2005: "public: class MyIntArray & __thiscall MyIntArray::operator>>(int &)" (??5MyIntArray@@QAEAAV0@AAH@Z)이(가) given.obj에 이미 정의되어 있습니다.
-HW.obj : error LNK2005: "public: class MyIntArray & __thiscall MyIntArray::operator<<(int)" (??6MyIntArray@@QAEAAV0@H@Z)이(가) given.obj에 이미 정의되어 있습니다.
-HW.obj : error LNK2005: "public: bool __thiscall MyIntArray::operator!(void)" (??7MyIntArray@@QAE_NXZ)이(가) given.obj에 이미 정의되어 있습니다.
-HW.obj : error LNK2005: "public: bool __thiscall MyIntArray::pop(int &)" (?pop@MyIntArray@@QAE_NAAH@Z)이(가) given.obj에 이미 정의되어 있습니다.
-HW.obj : error LNK2005: "public: bool __thiscall MyIntArray::push(int)" (?push@MyIntArray@@QAE_NH@Z)이(가) given.obj에 이미 정의되어 있습니다.
-HW.obj : error LNK2005: "private: static int MyIntArray::numOfInstances" (?numOfInstances@MyIntArray@@0HA)이(가) given.obj에 이미 정의되어 있습니다.
-HW.obj : error LNK2005: "private: static int MyIntArray::counter" (?counter@MyIntArray@@0HA)이(가) given.obj에 이미 정의되어 있습니다.
-D:\Programming\Mjuniv\2021-2 C++\HW3\Debug\HW3.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
+  HW.cpp
+  코드를 생성하고 있습니다...
+MSVCRTD.lib(exe_main.obj) : error LNK2019: _main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+D:\Programming\Mjuniv\2021-2 C++\HW3\Debug\HW3.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

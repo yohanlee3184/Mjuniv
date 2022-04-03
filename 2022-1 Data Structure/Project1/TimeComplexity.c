@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<time.h>
 
-void main(void) {
+void main_01(void) {
 
 	int sum=0 ;
 	clock_t start, finish;

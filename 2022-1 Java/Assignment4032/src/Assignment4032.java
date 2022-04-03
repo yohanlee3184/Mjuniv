@@ -1,27 +1,17 @@
-
-public class Assignment4032 {
-
-	public static void main(String[] args) {
-		
-		int testNum=0;
-		Integer testNum2=0;
-		
-		long intStartTime = System.currentTimeMillis();
-		for (int i = 0; i < Integer.MAX_VALUE; i++) {
-			testNum++;
-		}
-		long intStopTime = System.currentTimeMillis();
-		
-		System.out.println(intStopTime-intStartTime);
-		
-		long IntStartTime = System.currentTimeMillis();
-		for (int i = 0; i < Integer.MAX_VALUE; i++) {
-			testNum2++;
-		}
-		long IntStopTime = System.currentTimeMillis();
-		
-		System.out.println(IntStopTime-IntStartTime);
-		
-	}
-
+class MyInt{
+    public MyInt(int x){ value = x; }
+    public void setValue(int x){ value = x; }
+    public int value;
 }
+class Assignment4032{
+    public static void fun(MyInt x){ 
+    	x = new MyInt(1);
+    }
+    public static void main(String[] args){
+        MyInt xx;
+        xx  = new MyInt (999);
+        fun(xx);
+        System.out.println(xx.value);
+    }
+}
+

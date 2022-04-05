@@ -36,7 +36,7 @@ public class Queue {
 
 	public String front() throws Exception {
 		if (front == null) {
-			throw (new Exception("오류: Queue가 비었습니다."));
+			throw (new Exception("오류: LinkedList가 비었습니다."));
 		}
 		return front.data;
 	}

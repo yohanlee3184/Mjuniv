@@ -1,0 +1,3 @@
+﻿  StackAPI.c
+E:\Programming\Mjuniv\2022-1 Data Structure\Stack_Api\StackAPI.c(21,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  Stack_Api.vcxproj -> E:\Programming\Mjuniv\2022-1 Data Structure\Stack_Api\Debug\Stack_Api.exe

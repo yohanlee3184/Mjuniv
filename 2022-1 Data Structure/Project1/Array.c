@@ -3,25 +3,45 @@
 
 struct node {
 	int data;
-	struct node* next;
+	struct node* left;
+	struct node* right;
 };
 
-void delete() {
-	struct node* temp;
-	int t;
-	if (head == NULL) {
+void main() {
 
-	}
-}
+	struct node* head, * tail, * temp, * cursor;
 
-int main() {
-	struct node* head, * temp,* cursor;
+	temp = (struct node*)malloc(sizeof(struct node));
+	temp->data = 3;
+	temp->left = NULL;
+	temp->right = NULL;
+	head = temp;
 
-	
+	temp = (struct node*)malloc(sizeof(struct node));
+	temp->data = 7;
+	for (cursor = head; cursor->right != NULL; cursor = cursor->right);
+	cursor->right = temp;
+	temp->left = cursor;
 
-	for(cursor=head;cursor !=NULL;cursor=cursor->next)
-	
-		
+
+	temp = (struct node*)malloc(sizeof(struct node));
+	temp->data = 5;
+	for (cursor = head; cursor->right!= NULL; cursor = cursor->right);
+	cursor->right = temp;
+	temp->left = cursor;
+
+	temp = (struct node*)malloc(sizeof(struct node));
+	temp->data = 1;
+	for (cursor = head; cursor->right != NULL; cursor = cursor->right);
+	cursor->right = temp;
+	temp->left = cursor;
+	temp->right = NULL;
+	tail = temp;
+
+	for (cursor = head; cursor != NULL; cursor = cursor->right);
+	printf("\n %d \n", cursor->data);
+
+	return 0;
 }
 
 
